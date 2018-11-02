@@ -104,5 +104,4 @@ app.post('/api/shows/:showId/characters', (req, res) => {
     return res.json(newCharacter);
 });
 
-
 app.listen(PORT, () => console.log(`Server listening on port ${PORT}`));
